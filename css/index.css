@@ -1,0 +1,303 @@
+.navself{
+	background-color: #eaeaea;
+	box-shadow: 0 2px 4px 0px rgba(0,0,0,0.2);
+	margin-bottom: 0;
+}
+.logoImg{
+	padding: 0;
+}
+.logoImg img{
+	height: 50px;
+}
+.navUlself{
+	color: #000;
+}
+.navUlself ul{
+	line-height: 50px;
+}
+.navUlself ul li{
+	cursor: pointer;
+	padding: 0 10px;
+	margin: 0 5px;
+	font-weight: bold;
+}
+
+/* 轮播图部分 */
+.carouselSelf{
+	margin-top: 52px;
+}
+.carouselImg img{
+	width: 100%;
+	vertical-align: top;
+}
+.carousel-controlSelf{
+	position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 8%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    opacity: .3;
+}
+.carousel-controlSelf.left{
+	left: 0;
+}
+.carousel-controlSelf.right{
+	right: 0;
+}
+.carousel-controlSelf.left:hover{
+	background-image: -webkit-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    background-image: -o-linear-gradient(left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    background-image: -webkit-gradient(linear,left top,right top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001)));
+    background-image: linear-gradient(to right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+.carousel-controlSelf.right:hover{
+	background-image: -webkit-linear-gradient(right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    background-image: -o-linear-gradient(right,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    background-image: -webkit-gradient(linear,right top,left top,from(rgba(0,0,0,.5)),to(rgba(0,0,0,.0001)));
+    background-image: linear-gradient(to left,rgba(0,0,0,.5) 0,rgba(0,0,0,.0001) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+    background-repeat: repeat-x;
+}
+
+/* 产品介绍 */
+.productIntro{
+	background-color: #929292;
+}
+.proImg img{
+	width: 100%;
+	max-width: 350px;
+}
+.productIntro h1{
+	color: #FFF;
+	margin: 20% 0 25px 0;
+}
+.productIntro p{
+	color: #FFF;
+	line-height: 25px;
+	margin-bottom: 20%;
+}
+
+/* 产品介绍二  start */
+.productIntro2{
+	padding: 23px 0;
+	text-align: center;
+}
+.productIntro2 h1{
+	text-align: center;
+	color: #858585;
+	margin-bottom: 23px;
+}
+.imgBox{
+	width: 60%;
+	margin-left: 20%;
+	position: relative;
+	border-radius: 50%;
+}
+.imgBox>img{
+	width: 100%;
+	border-radius: 50%;
+}
+.bgBox{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transition: .5s;
+	border-radius: 50%;
+}
+.bgBox>p{
+	width: 100%;
+	height: 20px;
+	font-size: 16PX;	
+	line-height: 20px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+}
+.bgBox>p>a{
+	display: none;
+	color: #FFF;
+	padding: 3px 9px;
+	text-decoration: none;
+	border: 1px solid #FFF;	
+	-webkit-transition: .5s;
+}
+.bgBox:hover{
+	background-color: rgba(0,0,0,.2);
+}
+.bgBox:hover>p>a{
+	display: inline;
+}
+
+.funText{
+	width: 60%;
+	height: 30px;
+	margin-bottom: 20px;
+	color: #868686;
+	margin-left: 20%;
+	margin-top: 15px;
+	-webkit-transition: .2s;
+	cursor: pointer;
+}
+.funText:hover{
+	color: #000;
+}
+.productIntro2 .thumbnail{
+	border: none;
+}
+
+
+/* 产品介绍二 end*/
+
+/* 关于我们  start */
+
+.aboutUs{
+	padding: 5px 0px;
+	background-color: #54B9CB;
+}
+.aboutUs img{
+	width: 100%;
+	max-width: 350px;
+}
+.aboutUs h1{
+	color: #FFF;
+	margin: 20% 0 25px 0;
+}
+.aboutUs p{
+	color: #FFF;
+	line-height: 25px;
+	margin-bottom: 20%;
+}
+/* 关于我们 end*/
+
+/* 资源下载 start */
+.download{
+	padding: 9px 0;
+}
+.thumbnail img{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+.download .thumbnail{
+	margin-top: 20px;
+	border: none;
+	position: relative;
+	padding: 0;
+}
+.communityBg{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(84,185,203,.6);
+	-webkit-transition: .7s;
+}
+.communityBg:hover{
+	background-color: rgba(0,0,0,.5);
+}
+.communityText{
+	width: 100%;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	position: absolute;
+	top: 50%;
+	margin-top: -10px;
+}
+.communityText>a{
+	color: #FFF;
+	font-size: 16px;
+	padding: 8px 24px;
+	text-decoration: none;
+	border: 1px solid #FFF;
+	-webkit-transition: .7s;
+}
+.communityText>a:hover{
+	color: #FFF;
+	font-weight: bold;
+	background-color: #54B9CB;
+	border: 1px solid #54B9CB;
+	padding: 8px 24px;
+}
+/* 资源下载 end */
+
+/* 论坛社区 start*/
+.comunity{
+	position: relative;
+	color: #FFF;
+	padding: 20px 0;
+	background-color: #5c5d58;
+}
+.comunity h4{
+	margin: 20px 0;
+}
+.comunity a{
+	color: #FFF;
+}
+.comunity a:hover{
+	color: #54B9CB;
+	text-decoration: none;
+}
+.searchBox{
+	margin-bottom: 15px;
+	padding-left: 15px;
+}
+.searchBox input{
+	height: 24px;   /* 兼容IE 设置高度 */
+	color: #5c5d58;
+	padding: 2px 5px;
+	float: left;
+	border: none;
+	outline: none;
+}
+.searchBox>input:nth-of-type(1){
+	width: 72%;
+}
+.searchBox>input:nth-of-type(2){
+	color: #FFF;
+	/*font-weight: bold;*/
+	background-color: #54B9CB;
+	padding: 2px 12px;
+}
+.footerLogo{
+	width: 62%;
+}
+.code2{
+	width: 40%;
+	-webkit-transition:all .8s linear; 
+	transition: all .5s ease-in-out;
+}
+.code2:hover{
+	-webkit-transform: scale(1.8);
+}
+/* 放大动画 */
+@-webkit-keyframes magnify{
+	0%{-webkit-transform: scale(1,1)}
+	100%{-webkit-transform: scale(2,2)}
+}
+/* 论坛社区 end*/
+
+/* footer start */
+/* footer end*/
+
+
+@media (min-width: 768px) {
+	.right{
+		float: right;
+	}
+}
+@media (min-width:768px ) and (max-width:995px) {
+	.navUlself ul li {
+	     padding: 0; 
+	     margin: 0; 
+	}
+}
